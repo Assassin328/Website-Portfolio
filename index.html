@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="scripts/scripts.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+    <title>Byron Pratt</title>
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <nav>
+            <h1>Byron Pratt</h1>
+            <!-- Hamburger icon for mobile -->
+            <div class="hamburger" onclick="toggleMenu()">
+                &#9776; <!-- Unicode for hamburger icon -->
+            </div>
+            
+            <!-- Navigation links (hidden by default on mobile) -->
+            <div class="nav-links">
+                <a href="index.html">Home</a> 
+                <a href="about me.html">Abindexout Me</a> 
+                <a href="skills.html">Skills</a> 
+                <a href="projects.html">Projects</a>
+                <a href="contact.html">Contact</a>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="hero">
+        <div class="hero-content">
+            <div class="text-content">
+                <h1>Byron Pratt</h1>
+                <div class="slogan">
+                <p>Programmer. Designer. Gamer.</p>
+                </div>
+            </div>
+            <div class="image-content">
+                <img src="images/updated profile.jpg" alt="Profile Picture">
+            </div>
+        </div>
+    </section>
+
+    <!-- At a Glance Section -->
+    <section id="at-a-glance">
+        <h2>At a Glance</h2>
+        <div class="glance-items">
+            <div>
+                <img src="images/web design updated.webp" alt="Project Image">
+                <p style="color: black;">I have fluent skills in HTML, CSS and JavaScript. I have created multiple websites from scratch. I have design skills and will ensure any website that I work on is fully responsive and optimised for the user.</p>
+            </div>
+            <div>
+                <img src="images/Python.png" alt="Project Image">
+                <p style="color: black;">Python was the language that introduced me to the world of programming. I have experience coding multiple labs and projects.</p>
+            </div>
+            <div>
+                <img src="images/C++.png" alt="Project Image">
+                <p style="color: black;">I have problem-solving skills and I am proficient in C++ with experience coding multiple projects and labs.</p>
+            </div>
+        </div>
+    </section>
+    
+
+    <section id="get-to-know">
+        <h2>Get to Know Me</h2>
+        <img src="images/voice acting picture.jpg" alt="Large Image">
+        <button id="aboutMeButton">About Me</button>
+    </section>
+    
+    <script>
+        document.getElementById("aboutMeButton").addEventListener("click", function() {
+            window.location.href = "About Me.html";
+        });
+    </script>
+    
+
+    <!-- Footer Section -->
+    <footer>
+        <p>© 2024 Byron Pratt. All rights reserved.</p>
+        
+    </footer>
+</body>
+</html>

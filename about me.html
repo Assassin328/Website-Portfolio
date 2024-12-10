@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="scripts/scripts.js"></script>
+
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+    <title>Byron Pratt</title>
+
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+      
+        <nav>
+            <h1>Byron Pratt</h1>
+            <!-- Hamburger icon for mobile -->
+            <div class="hamburger" onclick="toggleMenu()">
+                &#9776; 
+            </div>
+            <div class="nav-links">
+                <a href="index.html">Home</a> 
+                <a href="about me.html">Abindexout Me</a> 
+                <a href="skills.html">Skills</a> 
+                <a href="projects.html">Projects</a>
+                <a href="contact.html">Contact</a>
+            </div>
+        </nav>
+    </header>
+
+    <div class="about">
+        <div>
+            <p>I have been into technology since I was a kid. I always loved video games and I got very competitive in first-person shooter video games. My avid love for video games sparked my interest in learning how they were made. I go to a collaborative college high school, which allows me to take classes that are interesting to me, so I have taken as many programming courses as possible to learn as many languages as I could. By the time I graduate, I will have learned the basics of Python, C++, HTML, CSS, and Javascript. I intend to continue my education to get a bachelor’s in computer science.</p>
+            <p>Click below to view the work I have done:</p>
+
+        </div>
+        <img src="images/controller.jpg" alt="Project Image">
+    </div>
+
+
+    <section id="get-to-know">
+        <h2>Projects</h2>
+        <button id="aboutMeButton">Projects</button>
+    </section>
+    
+    <script>
+        document.getElementById("aboutMeButton").addEventListener("click", function() {
+            window.location.href = "Projects.html";
+        });
+    </script>
+
+       <!-- Footer Section -->
+       <footer>
+        <p>© 2024 Byron Pratt. All rights reserved.</p>
+    </footer>
+</body>
+</html>
